@@ -24,7 +24,7 @@ function Hero() {
       <div className="hero-image">
        
         <img
-          src="https://via.placeholder.com/300x300.png?text=Sua+Foto"
+          src="C:\Users\Monitor\Desktop\Portfolio\Meu-Portfolio\src\assets\perfil.png"
           alt="Sua foto de perfil"
         />
       </div>

@@ -6,6 +6,7 @@ import Header from "./components/header";
 import Hero from "./components/Hero";
 import ProjectsSection from "./components/ProjectsSection";
 import Footer from "./components/Footer";
+import AboutSection from "./components/Aboutsection";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Hero />
         <ProjectsSection />
+          <AboutSection />
       </main>
       <Footer />
     </>
