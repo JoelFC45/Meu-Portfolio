@@ -1,5 +1,7 @@
 
 import "./Hero.css";
+import fotoDePerfil from '../assets/perfil.png';
+
 function Hero() {
   return (
     <section className="hero">
@@ -24,7 +26,7 @@ function Hero() {
       <div className="hero-image">
        
         <img
-          src="C:\Users\Monitor\Desktop\Portfolio\Meu-Portfolio\src\assets\perfil.png"
+          src={fotoDePerfil}
           alt="Sua foto de perfil"
         />
       </div>
