@@ -48,8 +48,8 @@ function ProjectsSection() {
             imageUrl="https://via.placeholder.com/400x200.png?text=Projeto+1"
             title="Meu Primeiro Projeto"
             description="Meu primeiro projeto com javascript! Ele foi vital para aprender a aplicar a linguagem no desenvolvimento web e também foi usado TailwindCSS."
-            repoUrl="#"
-            demoUrl="#"
+            repoUrl="https://github.com/JoelFC45/TO-DO-list-app.git"
+            demoUrl="https://to-doli2t.netlify.app/"
           />
         </SwiperSlide>
 
