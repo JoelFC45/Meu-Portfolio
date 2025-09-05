@@ -19,7 +19,7 @@ function Hero() {
             Contrate-me
           </a>
           <a href="#projetos" className="button secondary">
-            Meus Projetos
+           Projetos
           </a>
         </div>
       </div>
