@@ -47,6 +47,6 @@
     }
 
     .hero-image {
-      margin-top: 2rem;
+      display: none;
     }
   }
