@@ -10,14 +10,12 @@ function AboutSection() {
         <div className="about-layout">
           <div className="about-text">
             <p>
-              Olá! Sou Elton, um desenvolvedor front-end apaixonado por construir interfaces bonitas e funcionais. Minha jornada na programação começou com o desejo de transformar ideias criativas em realidade digital.
+              Olá! Sou Joel, um desenvolvedor Full-stack apaixonado por construir sistemas organizados com interfaces bonitas e funcionais. Minha jornada na programação tem como objetivo criar soluções e tecnologias que ajudem e façam diferença para as pessoas.
             </p>
             <p>
-              Tenho focado em aprender e me aprofundar no ecossistema JavaScript, especialmente com React, para criar aplicações web modernas e responsivas. Adoro o desafio de resolver problemas complexos e estou sempre em busca de novas tecnologias para aprender.
+              Tenho focado em aprender e me aprofundar no ecossistema JavaScript, especialmente com React e Node, para criar aplicações web modernas e responsivas. Já tenho certa experiência com o ecosistema PHP e estou sempre em busca de novas tecnologias para aprender.
             </p>
-            <p>
-              Quando não estou codando, gosto de [seu hobby aqui, ex: jogar video game, ler sobre tecnologia, etc.].
-            </p>
+           
           </div>
           <div className="about-skills">
             <h3>Minhas Habilidades</h3>
