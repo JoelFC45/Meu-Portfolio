@@ -55,5 +55,11 @@
       flex-direction: row;
       justify-content:space-between;
     }
+    .hero-image {
+      display: block;
+      flex: 1 1 40%;
+      max-width: 40%;
+      margin-left: 2rem;
+    }
   
 }
