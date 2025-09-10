@@ -45,5 +45,8 @@
       flex-direction: column;
       text-align:justify;
     }
+    .hero-image {
+      margin-top: 2rem;
+    }
   }
 
