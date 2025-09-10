@@ -64,26 +64,6 @@ function ProjectsSection() {
           />
         </SwiperSlide>
 
-        <SwiperSlide>
-          <ProjectCard
-            imageUrl="https://via.placeholder.com/400x200.png?text=Projeto+3"
-            title="Software para salão de beleza"
-            description="Um site simples feito em PHP e bootstrap para um salão local."
-            repoUrl="#"
-            demoUrl="#"
-          />
-        </SwiperSlide>
-
-       
-        <SwiperSlide>
-          <ProjectCard
-            imageUrl="https://via.placeholder.com/400x200.png?text=Projeto+4"
-            title="API de Blog"
-            description="Desenvolvimento de uma API RESTful com Node.js e Express para gerenciar posts e usuários de um blog."
-            repoUrl="#"
-            demoUrl="#"
-          />
-        </SwiperSlide>
       </Swiper>
     </section>
   );
