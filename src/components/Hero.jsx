@@ -8,7 +8,7 @@ function Hero() {
       <div className="hero-content">
         <p>Olá, meu nome é</p>
         <h1>Joel Felipe Costa</h1>
-        <h2>Eu sou um Desenvolvedor Full-stack</h2>
+        <h2>Desenvolvedor Full-stack</h2>
         <p>
           Tenho experiência em criar interfaces web dinâmicas e responsivas e em construir a lógica de sistemas completos. Com
           experiência em React, JavaScript ,CSS, TailwindCSS,sBootstrap, PHP e Laravel busco construir sistemas

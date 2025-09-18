@@ -26,7 +26,7 @@ function AboutSection() {
               <li>React</li>
               <li>Git & GitHub</li>
               <li>Design Responsivo</li>
-              <li>Node.js (Básico)</li>
+              <li>Node.js</li>
             </ul>
           </div>
         </div>
