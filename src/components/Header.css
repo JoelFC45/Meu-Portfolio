@@ -45,49 +45,9 @@
 .nav-item:hover {
   color: #111c1f;
 }
-.sidebar-container {
-  position: fixed;
-  top: 0;
-  right: -100%; /* Começa totalmente fora da tela */
-  width: 300px; /* Ou o tamanho que preferir */
-  height: 100vh;
-  background-color: #222;
-  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2);
-  
-  /* Animação suave */
-  transition: right 0.4s ease-in-out;
-  z-index: 100;
-}
 
-/* Estado da sidebar quando está aberta */
-.sidebar-container.open {
-  right: 0; /* Move a sidebar para a posição visível */
-}
-
-.sidebar-menu {
-  list-style: none;
-  padding: 4rem 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.sidebar-menu a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-.hamburger-trigger {
-  cursor: pointer;
-  z-index: 101; /* Garante que o gatilho fique acima de tudo */
-  /* Posicione conforme necessário. Em telas menores, o nav-menu pode ser escondido */
-}
 @media screen and (max-width: 480px) {
   .nav-item {
-    display: none;
-  }
-  .nav-menu {
     display: none;
   }
 }

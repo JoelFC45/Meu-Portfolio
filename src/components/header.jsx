@@ -3,10 +3,6 @@ import {UseState} from "react";
 import "./Header.css"; 
 
 function Header() {
-  const [Isopen, setIsopen] = UseState(false);
-  const toggleMenu = () => {
-    setIsopen(!Isopen);
-  }
   return (
     <header className="header-container">
       <nav className="navbar">
@@ -23,9 +19,22 @@ function Header() {
           <li className="nav-item">
             <a href="#contato">Contato</a>
           </li>
-          <li class="nav-item" onClick={toggleMenu}><GiHamburgerMenu /></li>
+          <li><GiHamburgerMenu /></li>
         </ul>
       </nav>
+      <aside>
+        <ul className="sidebar-menu">
+          <li className="side-item">
+            <a href="#projetos">Projetos</a>
+          </li>
+          <li className="side-item">
+            <a href="#sobre">Sobre</a>
+          </li>
+          <li className="side-item">
+            <a href="#contato">Contato</a>
+          </li>
+        </ul>
+      </aside>
     </header>
   );
 }

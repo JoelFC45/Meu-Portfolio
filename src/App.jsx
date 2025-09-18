@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import ProjectsSection from "./components/ProjectsSection";
 import Footer from "./components/Footer";
 import AboutSection from "./components/Aboutsection";
+
 function App() {
   return (
     <>
