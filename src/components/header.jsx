@@ -26,19 +26,6 @@ function Header() {
           <li class="nav-item" onClick={toggleMenu}><GiHamburgerMenu /></li>
         </ul>
       </nav>
-      <aside>
-        <ul className="sidebar-menu">
-          <li className="side-item">
-            <a href="#projetos">Projetos</a>
-          </li>
-          <li className="side-item">
-            <a href="#sobre">Sobre</a>
-          </li>
-          <li className="side-item">
-            <a href="#contato">Contato</a>
-          </li>
-        </ul>
-      </aside>
     </header>
   );
 }
