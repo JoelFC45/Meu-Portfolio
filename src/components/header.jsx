@@ -26,7 +26,7 @@ function Header() {
           <li class="nav-item" onClick={toggleMenu}><GiHamburgerMenu /></li>
         </ul>
       </nav>
-      <aside className="className={`sidebar-container ${isopen ? 'open' : ''}`}">
+      <aside>
         <ul className="sidebar-menu">
           <li className="side-item">
             <a href="#projetos">Projetos</a>
