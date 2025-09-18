@@ -1,8 +1,12 @@
-
-
+import { GiHamburgerMenu } from "react-icons/gi";
+import {UseState} from "react";
 import "./Header.css"; 
 
 function Header() {
+  const [Isopen, setIsopen] = UseState(false);
+  const toggleMenu = () => {
+    setIsopen(!Isopen);
+  }
   return (
     <header className="header-container">
       <nav className="navbar">
@@ -10,17 +14,31 @@ function Header() {
           Meu Portfólio
         </a>
         <ul className="nav-menu">
-          <li>
+          <li className="nav-item">
             <a href="#projetos">Projetos</a>
           </li>
-          <li>
+          <li className="nav-item">
             <a href="#sobre">Sobre</a>
           </li>
-          <li>
+          <li className="nav-item">
+            <a href="#contato">Contato</a>
+          </li>
+          <li class="nav-item" onClick={toggleMenu}><GiHamburgerMenu /></li>
+        </ul>
+      </nav>
+      <aside className="className={`sidebar-container ${isopen ? 'open' : ''}`}">
+        <ul className="sidebar-menu">
+          <li className="side-item">
+            <a href="#projetos">Projetos</a>
+          </li>
+          <li className="side-item">
+            <a href="#sobre">Sobre</a>
+          </li>
+          <li className="side-item">
             <a href="#contato">Contato</a>
           </li>
         </ul>
-      </nav>
+      </aside>
     </header>
   );
 }
