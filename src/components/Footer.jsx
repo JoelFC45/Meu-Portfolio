@@ -17,13 +17,13 @@ function Footer() {
           Sinta-se à vontade para entrar em contato comigo!
         </p>
         <div className="social-links">
-          <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/JoelFC45" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
           <a href="https://linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
-          <a href="mailto:seuemail@exemplo.com">
+          <a href="joelfelipecosta309@gmail.com" target="_blank" rel="noopener noreferrer">
             <FaEnvelope />
           </a>
         </div>
