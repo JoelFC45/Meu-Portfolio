@@ -1,15 +1,13 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
-
-
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
-
 import ProjectCard from "./ProjectCard";
 import "./ProjectsSection.css";
+import todolist from '../assets/todolist.png'
+import appario from '../assets/appario.png'
 
 function ProjectsSection() {
   return (
@@ -45,7 +43,7 @@ function ProjectsSection() {
         
         <SwiperSlide>
           <ProjectCard
-            imageUrl="https://via.placeholder.com/400x200.png?text=Projeto+1"
+            imageUrl = {todolist}
             title="Meu Primeiro Projeto"
             description="Meu primeiro projeto com javascript! Ele foi vital para aprender a aplicar a linguagem no desenvolvimento web e também foi usado TailwindCSS."
             repoUrl="https://github.com/JoelFC45/TO-DO-list-app.git"
@@ -56,11 +54,11 @@ function ProjectsSection() {
        
         <SwiperSlide>
           <ProjectCard
-            imageUrl="https://via.placeholder.com/400x200.png?text=Projeto+2"
-            title="Admnistrador de Apiarios"
+            imageUrl= {appario}
+            title ="Admnistrador de Apiarios"
             description="Uma aplicação feita em Laravel onde fui responsavel em representar os clientes,auxiliar no projeto do banco de dados e pela progamação responsíva em bootstrap."
-            repoUrl="#"
-            demoUrl="#"
+            repoUrl="https://github.com/pedrohenriqux/appario"
+            demoUrl="https://appario-ld5k.onrender.com/"
           />
         </SwiperSlide>
 
