@@ -5,7 +5,6 @@ import "./ProjectCard.css";
 function ProjectCard(props) {
   return (
     <div className="project-card">
-      <img src={props.imageUrl} alt={props.title} className="project-image" />
       <div className="project-info">
         <h3 className="project-title">{props.title}</h3>
         <p className="project-description">{props.description}</p>
