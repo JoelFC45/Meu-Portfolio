@@ -20,10 +20,10 @@ function Footer() {
           <a href="https://github.com/JoelFC45" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/joel-felipe-05a796271" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
-          <a href="joelfelipecosta309@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="joelcosta44@gmail.com" target="_blank" rel="noopener noreferrer">
             <FaEnvelope />
           </a>
         </div>
