@@ -41,10 +41,10 @@ function ProjectsSection() {
         
         <SwiperSlide>
           <ProjectCard
-            title="Meu Primeiro Projeto"
-            description="Meu primeiro projeto com javascript! Ele foi vital para aprender a aplicar a linguagem no desenvolvimento web e também foi usado TailwindCSS."
-            repoUrl="https://github.com/JoelFC45/TO-DO-list-app.git"
-            demoUrl="https://to-doli2t.netlify.app/"
+            title="Calculadora"
+            description="Meu primeiro projeto com javascript! Ele foi vital para aprender a aplicar a linguagem no desenvolvimento web e dominar o DOM, além disso afiei meus conhecimentos em relação ao grid do CSS."
+            repoUrl="https://github.com/JoelFC45/Calculator.git"
+            demoUrl="https://calculato17.netlify.app/"
           />
         </SwiperSlide>
 
