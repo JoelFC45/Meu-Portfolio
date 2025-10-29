@@ -9,7 +9,7 @@ function Footer() {
 
   return (
     <footer id="contato" className="footer">
-      <div className="footer-content">
+      <div className="footer-content" data-aos = "fade-up">
         <h3>Entre em Contato</h3>
         <p>
           Estou disponível para novas oportunidades e projetos.
