@@ -1,10 +1,12 @@
 
 import "./Hero.css";
 import fotoDePerfil from '../assets/perfil.png';
+import ParticlesBackground from "../ParticlesBackground";
 
 function Hero() {
   return (
     <section className="hero">
+      <ParticlesBackground/>
       <div className="hero-content">
         <p>Olá, meu nome é</p>
         <h1>Joel Felipe Costa</h1>
