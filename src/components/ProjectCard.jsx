@@ -4,7 +4,7 @@ import "./ProjectCard.css";
 
 function ProjectCard(props) {
   return (
-    <div className="project-card">
+    <div className="project-card" data-aos = 'fade-down'>
       <div className="project-info">
         <h3 className="project-title">{props.title}</h3>
         <p className="project-description">{props.description}</p>

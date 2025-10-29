@@ -5,10 +5,10 @@ import './AboutSection.css';
 function AboutSection() {
   return (
     <section id="sobre" className="about-section">
-      <div className="about-content">
+      <div className="about-content" data-aos = "fade-down">
         <h2>Sobre Mim</h2>
         <div className="about-layout">
-          <div className="about-text">
+          <div className="about-text" >
             <p>
               Olá! Sou Joel, um desenvolvedor Full-stack apaixonado por construir sistemas organizados com interfaces bonitas e funcionais. Minha jornada na programação tem como objetivo criar soluções e tecnologias que ajudem e façam diferença para as pessoas.
             </p>
@@ -17,7 +17,7 @@ function AboutSection() {
             </p>
            
           </div>
-          <div className="about-skills">
+          <div className="about-skills" data-aos ="slide-left" >
             <h3>Minhas Habilidades</h3>
             <ul>
               <li>HTML5</li>
