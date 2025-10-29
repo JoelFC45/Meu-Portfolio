@@ -5,12 +5,15 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
 const ParticlesBackground = () => {
+
   const [init, setInit] = useState(false);
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
+      
       await loadSlim(engine);
     }).then(() => {
+     
       setInit(true);
     });
   }, []);
@@ -42,8 +45,8 @@ const ParticlesBackground = () => {
   "defaultThemes": {},
   "delay": 0,
   "fullScreen": {
-    "enable": true,
-    "zIndex": 0
+    "enable": false,
+    "zIndex": -1
   },
   "detectRetina": true,
   "duration": 0,
@@ -351,7 +354,7 @@ const ParticlesBackground = () => {
     },
     "zIndex": {
       "value": {
-        "min": 0,
+        "min": -1,
         "max": 100
       },
       "opacityRate": 10,

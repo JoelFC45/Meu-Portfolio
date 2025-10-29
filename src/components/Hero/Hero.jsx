@@ -1,7 +1,8 @@
 
 import "./Hero.css";
-import fotoDePerfil from '../assets/perfil.png';
+import fotoDePerfil from '../../assets/perfil.png';
 import ParticlesBackground from "../ParticlesBackground";
+
 
 function Hero() {
   return (
