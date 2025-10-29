@@ -38,11 +38,18 @@ function ProjectsSection() {
         }}
         className="mySwiper"
       >
-        
+        <SwiperSlide>
+          <ProjectCard
+            title="TO-DO list"
+            description="Meu primeiro projeto usando javascript! Nesse projeto aprendi a usar o display flex e começar a entender o DOM do javascript. Além disso usei o tailwindcss."
+            repoUrl="https://github.com/JoelFC45/TO-DO-list-app.git"
+            demoUrl="https://to-doli2t.netlify.app/"
+          />
+        </SwiperSlide>   
         <SwiperSlide>
           <ProjectCard
             title="Calculadora"
-            description="Meu primeiro projeto com javascript! Ele foi vital para aprender a aplicar a linguagem no desenvolvimento web e dominar o DOM, além disso afiei meus conhecimentos em relação ao grid do CSS."
+            description="A clássica calculadora, esse projeto foi vital para aprender a aplicar a linguagem no desenvolvimento web e dominar o DOM, além disso afiei meus conhecimentos em relação ao grid do CSS."
             repoUrl="https://github.com/JoelFC45/Calculator.git"
             demoUrl="https://calculato17.netlify.app/"
           />
