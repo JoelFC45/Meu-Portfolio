@@ -69,5 +69,8 @@
     .hero-image {
       margin-top: 2rem;
     }
+  .hero{
+    clip-path:none;
   }
+}
 
