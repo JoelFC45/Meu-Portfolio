@@ -17,7 +17,7 @@ function AboutSection() {
             </p>
            
           </div>
-          <div className="about-skills" data-aos ="slide-left" >
+          <div className="about-skills" data-aos ="slide-right">
             <h3>Minhas Habilidades</h3>
             <ul>
               <li>HTML5</li>

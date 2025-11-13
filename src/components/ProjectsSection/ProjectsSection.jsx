@@ -4,7 +4,7 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../ProjectCard/ProjectCard";
 import "./ProjectsSection.css";
 
 function ProjectsSection() {

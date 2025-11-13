@@ -1,9 +1,9 @@
 import "./App.css";
-import Header from "./components/header";
+import Header from "./components/Header/header";
 import Hero from "./components/Hero/Hero";
-import ProjectsSection from "./components/ProjectsSection";
-import Footer from "./components/Footer";
-import AboutSection from "./components/Aboutsection";
+import ProjectsSection from "./components/ProjectsSection/ProjectsSection";
+import Footer from "./components/Footer/Footer";
+import AboutSection from "./components/AboutSection/Aboutsection";
 import 'aos/dist/aos.css'; 
 import AOS from 'aos';
 import React, { useState, useEffect } from 'react';
