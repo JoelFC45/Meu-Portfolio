@@ -1,13 +1,24 @@
 
 .about-section {
   padding: 4rem 2rem;
-  background-color: #ffffff; /* Fundo branco para contrastar */
+  background-color: #ffffff; 
 }
 
 .about-content {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+}
+li{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.icon {
+  width: 40px;
+  color: #ff8c00; 
 }
 
 .about-content h2 {

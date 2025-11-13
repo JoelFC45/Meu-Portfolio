@@ -1,6 +1,15 @@
 // src/components/AboutSection.jsx
 
 import './AboutSection.css';
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3 } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaPhp } from "react-icons/fa";
+import { FaLaravel } from "react-icons/fa";
+import { DiMysql } from "react-icons/di";
+import { FaGithub } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+
 
 function AboutSection() {
   return (
@@ -20,13 +29,14 @@ function AboutSection() {
           <div className="about-skills" data-aos ="slide-right">
             <h3>Minhas Habilidades</h3>
             <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript (ES6+)</li>
-              <li>React</li>
-              <li>Git & GitHub</li>
-              <li>Design Responsivo</li>
-              <li>Node.js</li>
+              <li>HTML5 <FaHtml5 className='icon'/> </li>
+              <li>CSS3 <FaCss3 className='icon'/></li>
+              <li>JavaScript (ES6+) <IoLogoJavascript className='icon'/></li> 
+              <li>React <FaReact className= 'icon'/></li>
+              <li>PHP <FaPhp className='icon'/></li>
+              <li>Laravel <FaLaravel className='icon'/></li>
+              <li>MySQL <DiMysql className='icon'/></li>
+              <li>Git & GitHub <FaGithub className='icon'/></li>
             </ul>
           </div>
         </div>
