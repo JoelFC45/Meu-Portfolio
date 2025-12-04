@@ -26,7 +26,7 @@ Abaixo, as principais ferramentas e bibliotecas que impulsionam este projeto:
 * **[React.js](https://reactjs.org/):** Biblioteca principal para construção da interface.
 * **[Swiper](https://swiperjs.com/):** Para criação de sliders e carrosseis modernos.
 * **[tsParticles](https://particles.js.org/):** Para geração de efeitos de partículas leves e customizáveis.
-* **CSS3 / Styled Components:** [Especifique aqui se usou CSS puro, Modules, SASS ou Styled Components].
+* **CSS3 / Styled Components:** A estilizaação foi feita usando CSS sem nenhum framework para mostrar minha dominação da base da estilização.
 
 ## 💻 Como Rodar o Projeto
 
