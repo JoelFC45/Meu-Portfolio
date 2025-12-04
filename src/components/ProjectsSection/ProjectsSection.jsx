@@ -64,7 +64,14 @@ function ProjectsSection() {
             demoUrl="https://appario-ld5k.onrender.com/"
           />
         </SwiperSlide>
-
+           <SwiperSlide>
+          <ProjectCard
+            title ="portfolio"
+            description="Este portfolio foi feito em Reactjs."
+            repoUrl="https://github.com/JoelFC45/Meu-Portfolio.git"
+            demoUrl="#home"
+          />
+        </SwiperSlide>
       </Swiper>
     </section>
   );

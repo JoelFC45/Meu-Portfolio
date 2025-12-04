@@ -14,7 +14,7 @@ function Hero() {
         <h2>Desenvolvedor Full-stack</h2>
         <p>
           Tenho experiência em criar interfaces web dinâmicas e responsivas e em construir a lógica de sistemas completos. Com
-          experiência em React, JavaScript ,CSS, TailwindCSS,Bootstrap, e PHP busco construir sistemas elegantes e eficientes.
+          experiência em PHP,React,JavaScript e CSS usando frameworks como TailwindCSS e Bootstrap  busco construir sistemas elegantes e eficientes.
         </p>
         <div className="hero-buttons">
           <a href="#contato" className="button primary">
