@@ -2,10 +2,9 @@
 
 [ACESSE AQUI](https://portfoliojfc.netlify.app/)
 
-[Demo do portfolio](assets/HOME.png)
+[Demo do portfolio](src/assets/HOME.png)
 
 > Um portfólio interativo e responsivo desenvolvido para demonstrar habilidades em Front-end Moderno e UI/UX Design.
-
 
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
