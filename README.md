@@ -1,8 +1,8 @@
-# Portfolio Profissional - [Seu Nome]
+# Portfolio Profissional - [Joel Felipe Costa]
 
-[!ACESSE AQUI](https://portfoliojfc.netlify.app/)
+[ACESSE AQUI](https://portfoliojfc.netlify.app/)
 
-![DEMO](assets/HOME.png)
+![Demo do portfolio](./assets/HOME.png)
 
 > Um portfólio interativo e responsivo desenvolvido para demonstrar habilidades em Front-end Moderno e UI/UX Design.
 
