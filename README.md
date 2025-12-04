@@ -1,7 +1,12 @@
 # Portfolio Profissional - [Seu Nome]
 
-![Project Banner](https://via.placeholder.com/1200x400?text=Preview+do+Seu+Portfolio)
+![ACESSE AQUI](https://portfoliojfc.netlify.app/)
+
+![DEMO](assets/HOME.png)
+
 > Um portfólio interativo e responsivo desenvolvido para demonstrar habilidades em Front-end Moderno e UI/UX Design.
+
+
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)]()
